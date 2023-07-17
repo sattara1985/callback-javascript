@@ -22,3 +22,15 @@ delete eliminar datos del servidor
 
 esto es para internet
 
+
+Respuestas informativas (100–199),
+Respuestas satisfactorias (200–299),
+Redirecciones (300–399),
+Errores de los clientes (400–499),
+y errores de los servidores (500–599).
+
+se debe instalar
+npm init
+crear la -gitignore
+luego intalo npm i request
+https://github.com/request/request
