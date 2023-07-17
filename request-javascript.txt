@@ -1,0 +1,24 @@
+retorna JSon
+
+url direccion 
+method-post
+
+headers-user agent
+body-data
+
+request
+
+metodos
+
+
+get conseguir informacion del servidor es leer en el crud
+
+post crear es mandar datos al servidor  
+
+put actualizar
+patch actualizar
+
+delete eliminar datos del servidor
+
+esto es para internet
+

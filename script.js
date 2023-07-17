@@ -18,6 +18,22 @@ elAdministrador(despedirse, 25);
 //saludar("mali");
 
 
+// tenemos 2 funciones que devuelven un valor las funciones se deben crear antes del callback 
+function soyCien(){return 100;}
+function soyDoscientos(){return 200;}
+///esta funcion revibe como parametro 2 funciones u las ejecuta
+function sumaDosFunciones(funcionUna, funcionDos){
+    const suma = funcionUna()+funcionDos();
+    return suma; //retornando un nuevo valor, en este casu su suma
+}
+
+// invocamos a sumadosfunciones y le pasamos 2 funciones como parametros
+alert (sumaDosFunciones(soyCien, soyDoscientos));
+console.log (sumaDosFunciones(soyCien, soyDoscientos));
+//resultado 300
+
+
+
 
 // /*  Crear una función que reciba como 
 //     argumentos, dos números y un callback. 
